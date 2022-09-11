@@ -1,0 +1,35 @@
+:root{
+    --softColor: #a1ccff;
+    --darkColor: #15479c;
+}
+#single-Course{
+    width: 100vw;
+    min-height: 100vh;
+}
+.row{
+    align-items: flex-start;
+}
+.details h2{
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 700;
+}
+.details p{
+    font-size: 18px;
+    margin: 24px 0;
+}
+.details .btn{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 24px;
+    background-color: var(--darkColor) !important ;
+    width: 200px;
+}
+.ws-img img{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

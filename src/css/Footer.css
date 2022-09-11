@@ -1,0 +1,17 @@
+footer{
+    width: 100vw;
+    height: 80px;
+    background-color: #15479c;
+}
+footer .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 220px;
+}
+.logo img{
+    width: 100%;
+}

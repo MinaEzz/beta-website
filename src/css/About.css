@@ -1,0 +1,52 @@
+.about h1 {
+    font-size: 32px;
+}
+p{
+    font-size: 18px;
+}
+
+.firstAbout {
+    margin-bottom: 10px;
+}
+
+.firstAbout button {
+    background-color: #15479c !important;
+    margin: auto;
+}
+
+.alignbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondAbout {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.thirdAbout {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.fourthAbout {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fifthAbout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.staffHeader {
+    margin-bottom: 20px;
+}
+.staff{
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: 900;
+}
