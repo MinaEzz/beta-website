@@ -3,22 +3,6 @@ import {Navbar, Nav} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import '../css/Navbar.css';
 
-// const navLink = document.getElementsByClassName('nav-link-hov');
-// const path = window.location.pathname;
-// switch(path) {
-//     case '/': 
-//         navLink.className('active');
-//     break;
-//     case '/about': 
-//         navLink.className('active');
-//     break;
-//     case '/contact':
-//         navLink.className('active');
-//     break;
-//     default:
-//         console.log('no active nav link');
-// }
-
 function Nav_bar() {
 
 return (
@@ -33,13 +17,13 @@ return (
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
             <Nav.Link>
-                <Link to={'/'} className="nav-link nav-link-hov active">Home</Link>
+                <Link to={'/'} className="nav-link nav-link-hov active ">Home</Link>
                 </Nav.Link> 
                 <Nav.Link>
-                <Link to={'/about'} className="nav-link nav-link-hov">About</Link>
+                <Link to={'/about'} className="nav-link nav-link-hov ">About</Link>
                 </Nav.Link>
                 <Nav.Link>
-                <Link to={'/contact'} className="nav-link nav-link-hov">Contact Us</Link>
+                <Link to={'/contact'} className="nav-link nav-link-hov ">Contact Us</Link>
                 </Nav.Link>
             </Nav>
             </Navbar.Collapse>

@@ -5,6 +5,7 @@
 
 #contact{
     width: 100vw;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +23,9 @@
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 700;
+}
+.input{
+    box-shadow: -1px -1px 3px #a1ccff;
 }
 .submit-btn{
     background-color: var(--darkColor) !important;

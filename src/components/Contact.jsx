@@ -19,16 +19,16 @@ function Contact() {
                     <Form>
                       <Form.Group controlId="formBasicText" className='mb-4'>
                         <Form.Label className='label'>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Enter Name" className='input' />
+                        <Form.Control type="text" placeholder="Enter Name" className='input' required />
                       </Form.Group>
                       <Form.Group controlId="formBasicEmail" className='mb-4'>
                         <Form.Label className='label'>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter Email" />
+                        <Form.Control type="email" placeholder="Enter Email" className='input' required />
                         <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
                       </Form.Group>
                       <Form.Group controlId="exampleForm.ControlTextarea1" className='mb-4'>
                           <Form.Label className='label'>leave your message</Form.Label>
-                          <Form.Control as="textarea" rows={3} />
+                          <Form.Control as="textarea" rows={3} placeholder="Your Message ..." className='input' />
                       </Form.Group>
                     <Button type="submit" className='submit-btn mb-5'>Submit</Button>
                   </Form>
