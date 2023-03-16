@@ -5,7 +5,12 @@ import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Workshop from "./components/Workshop.jsx";
 import Footer from "./components/Footer.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -13,10 +18,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/home" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/workshop" element={<Workshop />}></Route>
+          <Route path="/" element={<Navigate to="/home" />}></Route>
         </Routes>
         <Footer />
       </Router>
